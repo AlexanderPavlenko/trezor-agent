@@ -11,7 +11,7 @@ setup(
     scripts=['trezor_agent.py'],
     install_requires=[
         'libagent>=0.13.0',
-        'trezor[hidapi]>=0.11.0'
+        'trezor>=0.11.0'
     ],
     platforms=['POSIX'],
     classifiers=[
